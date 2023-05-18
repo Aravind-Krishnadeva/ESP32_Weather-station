@@ -3,8 +3,9 @@
 ### Objective
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The objective of this project is to build a compact, battery powered ESP32 based weather station module
+![20230518_133924](https://github.com/Aravind-Krishnadeva/ESP32_Weather-station/assets/26503600/8ee60086-a6c7-42ce-829d-e6a6d7a9b152)
 
-![20230416_084834](https://user-images.githubusercontent.com/26503600/232269726-3f5587c7-fb8f-410d-b324-e5b6f0ef4914.jpg)
+
 
 
 

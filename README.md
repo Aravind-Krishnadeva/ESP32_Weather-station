@@ -11,13 +11,14 @@ The objective of this project is to build a compact, battery powered ESP32 based
 
 
 ### Requirements / functional specifications
-1. The module has to measure environmental parameters such as temperature, humidity, atmospheric pressure, as well as battery voltage
-2. The module is powered with a li battery rated 3.7V
-3. The module has 3 onboard led indicators, one while led that displays data transfer, red led for battery low indication and green led for battery good display
+1. The module has to measure environmental parameters such as temperature , humidity as well as battery voltage.
+2. The module is powered with a li 18560 battery rated 3.7V
+3. The module has 2 onboard led indicators, green led that displays battery good condition and  red led for battery low indication.
+4. The module has to transmit the sensor data on request, only when an external push button is pressed. 
 
 
-### Firmware flow
-1. Read battery voltage [ function 1: battery_check ]
+### Event controlled Firmware flow
+1. To be continued....
 2. If battery voltage is in the range of 3.5 to 3.7V (Battery good) turn on green led and  read sensor values [ function 2: sensor_read ]
 3. Send sensor values to monochrome lcd display [ function 3: display_lcd ]
 4. If battery voltage is less than 3.5V, turn on red led, do not display sensor values and print an error message on the lcd screen

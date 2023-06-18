@@ -14,7 +14,8 @@ The objective of this project is to build a compact, battery powered ESP32 based
 1. The module has to measure environmental parameters such as temperature , humidity as well as battery voltage.
 2. The module is powered with a li 18560 battery rated 3.7V
 3. The module has 2 onboard led indicators, green led that displays battery good condition and  red led for battery low indication.
-4. The module has to transmit the sensor data on request, only when an external push button is pressed. 
+4. The module has to transmit the sensor data on request, only when an external push button is pressed.
+5. The sensor data is to be made available in a cloud dashboard using MQTT protocol
 
 
 ### Event controlled Firmware flow

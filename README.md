@@ -2,7 +2,7 @@
 
 ### Objective
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-The objective of this project is to build a compact, battery powered ESP32 based weather station module that is driven by micropython
+The objective of this project is to build a compact, battery powered ESP32 based weather station module that is driven by micropython which loads sensor data to an adarfuit IO cloud using MQTT
 ![20230518_133924](https://github.com/Aravind-Krishnadeva/ESP32_Weather-station/assets/26503600/8ee60086-a6c7-42ce-829d-e6a6d7a9b152)
 
 
